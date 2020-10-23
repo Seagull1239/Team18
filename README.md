@@ -1,30 +1,27 @@
-# Node.js Express & MongoDB: CRUD Rest APIs
+SEER (Software Engineering Evidence Repository) README
 
-For more detail, please visit:
-> [Node.js, Express & MongoDb: Build a CRUD Rest Api example](https://bezkoder.com/node-express-mongodb-crud-rest-api/)
+Initial setup required:
 
-> [Server side Pagination in Node.js with MongoDB and Mongoose](https://bezkoder.com/node-js-mongodb-pagination/)
+1. Using Windows CMD change directory to source folder (e.g. cd C:\Users\shann\Desktop\heroku\seer\seer_backend)
+2. On Node.JS cmd prompt use: "npm init" to create node modules
+3. Leave everything default on npm init but set entry point: (index.js) server.js
+4. Install the following dependencies on the source folder with: "npm install express mongoose body-parser cors --save"
 
-Associations:
-> [MongoDB One-to-One relationship tutorial with Mongoose examples](https://bezkoder.com/mongoose-one-to-one-relationship-example/)
+The following project uses the following technology stack:
 
-> [MongoDB One-to-Many Relationship tutorial with Mongoose examples](https://bezkoder.com/mongoose-one-to-many-relationship/)
+M - MongoDB
+E - Express
+A - Angular
+N - Node.js
 
-> [MongoDB Many-to-Many Relationship with Mongoose examples](https://bezkoder.com/mongodb-many-to-many-mongoose/)
+Testing frameworks/tools used:
+Jest - for unit testing
+Travis CI - for integration testing
+Postman - for testing API requests
+MongoDB Compass - GUI for MongoDB database
 
-Fullstack:
-> [Vue.js + Node.js + Express + MongoDB example](https://bezkoder.com/vue-node-express-mongodb-mevn-crud/)
+IDE used:
+VS Code
 
-> [Angular + Node.js + Express + MongoDB example](https://bezkoder.com/angular-mongodb-node-express/)
-
-> [React + Node.js + Express + MongoDB example](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
-
-## Project setup
-```
-npm install
-```
-
-### Run
-```
-node server.js
-```
+Repository used:
+Github
