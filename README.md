@@ -24,4 +24,4 @@ IDE used:
 VS Code
 
 Repository used:
-Github (Need to make branches)
+Github
