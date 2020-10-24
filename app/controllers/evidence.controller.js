@@ -1,7 +1,7 @@
 const db = require("../models");
 const Evidence = db.evidences;
 
-// Create and Save a new Evidence that is submitted
+// Create and Save a new Evidence
 exports.create = (req, res) => {
   // Validate request
   if (!req.body.title) {
@@ -9,14 +9,14 @@ exports.create = (req, res) => {
     return;
   }
 
-  // Create a Evidence in main page
+  // Create a Evidence
   const evidences = new Evidence({
     title: req.body.title,
     description: req.body.description,
     published: req.body.published ? req.body.published : false
   });
 
-  // Save Evidence the is submitted in the evidence database
+  // Save Evidence in the database
   evidences
     .save(evidences)
     .then(data => {
