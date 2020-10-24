@@ -20,8 +20,8 @@ Travis CI - for integration testing
 Postman - for testing API requests
 MongoDB Compass - GUI for MongoDB database
 
-IDE used:
-VS Code
+IDE:
+VS Studio Code
 
 Repository used:
 Github
